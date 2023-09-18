@@ -1,2 +1,2 @@
 # 296_Wordle
-Legacy code for EE296 Wordle project
+This program compiles the full list of words that can be chosen by the game 'Wordle' and determines the best initial guess in different ways. bestGuess() finds the best initial guess based solely on the quality of its subsequent guesses. BestPair() determines the best first guess based on the quality of the second guesses that they would lead to. guessQual() and guessQualPair() are the isolated algorithms that determine the quality of a given guess.
